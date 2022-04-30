@@ -18,11 +18,8 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Nunito", sans-serif;
 }
-.logo{
-  position: absolute;
-    height: 150px;
-    top: -25px;
-    left: -125px;
+.logo {
+  height: 70px;
 }
 /*--------------------------------------------------------------
 # Back to top button
@@ -56,17 +53,8 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
 }
-#header .logo {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
+
 #header .logo a {
   color: #fff;
 }
@@ -78,12 +66,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 12px 0;
   height: 101px;
 }
-
-.navbar {
-  padding: 0;
-  position: absolute;
-  right: -123px;
-  top: 19px;
+.navbar{
+  right: 4%;
 }
 .navbar ul {
   margin: 0;
@@ -1022,12 +1006,6 @@ border: 2px solid #fff;
 .intro {
   background: #d91e42;
   padding: 100px 0;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
 }
 
 h1 {
